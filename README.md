@@ -1,10 +1,18 @@
-# Java API Service Starter
+# XStudio
 
-This is a minimal Java API service starter based on [Google Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-java-service).
+This is a minimal Java FX application to validate an XML file against a XSD schema.
 
 ## Getting Started
 
-Server should run automatically when starting a workspace. To run manually, run:
+Download jar from release on github page, execute:
 ```sh
-mvn spring-boot:run
-```# xstudio
+java -jar xstudio.jar
+```
+
+## Developer
+
+To run from Maven , execute:
+```sh
+mvn exec:java
+```
+
