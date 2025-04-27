@@ -6,7 +6,7 @@ This is a minimal Java FX application to validate an XML file against a XSD sche
 
 Download jar from release on github page, execute:
 ```sh
-java -jar xstudio.jar
+java -jar xstudio-0.0.1.jar
 ```
 
 ## Developer
